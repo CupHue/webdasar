@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ],
+  "scripts": {
+    "dev" : "bunx @tailwindcss/cli -i style/input.css -o style/output.css --watch"
+  }
+}

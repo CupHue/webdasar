@@ -1,0 +1,11 @@
+@import "./style/fonts";
+@import "tailwindcss";
+
+@theme {
+    --color-primary : #de2121;
+    --color-secondary : #2c2c2c;
+}
+
+body {
+    font-family: 'Satoshi';
+}
