@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.3.3",
+    "gsap": "^3.15.0",
     "tailwindcss": "^4.3.3"
   },
   "trustedDependencies": [
     "@parcel/watcher"
   ],
   "scripts": {
-    "dev" : "bunx @tailwindcss/cli -i style/input.css -o style/output.css --watch"
+    "dev": "bunx @tailwindcss/cli -i style/input.css -o style/output.css --watch"
   }
 }

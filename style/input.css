@@ -6,3 +6,7 @@
     --color-back : #c6c7cf;
 }
 
+.bgpaper {
+    background-image: url("./assets/bg.webp");
+    background-repeat: repeat;
+}
